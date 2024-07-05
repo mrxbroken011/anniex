@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "MrBrokn")
 BOT_USERNAME = getenv("BOT_USERNAME", "MISS_YUMIPRO_BOT")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
+BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶")
 ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT")
 EVALOP = list(map(int, getenv("EVALOP", "7374966263").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -28,7 +28,7 @@ OWNER_ID = int(getenv("OWNER_ID", 1841914911))
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/doraemon890/ANNIE-X-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MRXBROKEN011/anniex")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -85,10 +85,10 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/0ffb4a004185a3991ce18.jpg"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://telegra.ph/file/4be43ed2aa6872337e9a8.mp4"
+    "PING_VID_URL", "https://telegra.ph/file/4f0a703ae7b10a7049c61.mp4"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/94e9eca3b0ec6e2dc6cd5.png"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/0ffb4a004185a3991ce18.jpg"
+STATS_VID_URL = "https://telegra.ph/file/4f0a703ae7b10a7049c61.mp4"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/ef5bdba78c475a9e50d24.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c8db17e1612487be13571.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/6a81d918bd5d44c646205.jpg"
