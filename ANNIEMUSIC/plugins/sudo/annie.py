@@ -30,19 +30,21 @@ strict_txt = [
 "are you serious i am not restrict to my friends",
 "fuck you bsdk k mai apne dosto ko kyu kru",
 "hey stupid admin ", 
+"Bsdk Chutiya Hai kya?", 
+" @MRBROKEN OWNER HAI "
 "ha ye phele krlo maar lo ek dusre ki gwaand",  
-"i can't hi is my closest friend",
+"i can't he is my closest friend",
 "i love him please don't restict this user try to usertand "
 ]
 
 
  
-ban = ["ban","boom"]
-unban = ["unban",]
-mute = ["mute","silent","shut"]
+ban = ["ban","maa","chodh"]
+unban = ["unban","aazad"]
+mute = ["mute","silent","shut","chup"]
 unmute = ["unmute","speak","free"]
-kick = ["kick", "out","nikaal","nikal"]
-promote = ["promote","adminship"]
+kick = ["kick","gand","nikaal","nikal","laat"]
+promote = ["promote","adminship","shabashi"]
 fullpromote = ["fullpromote","fulladmin"]
 demote = ["demote","lelo"]
 group = ["group"]
@@ -53,7 +55,7 @@ channel = ["channel"]
 # ========================================= #
 
 
-@app.on_message(filters.command(["nnie"], prefixes=["A", "a"]) & admin_filter)
+@app.on_message(filters.command(["umi", "aby"], prefixes=["Y", "y", "b", "B"]) & admin_filter)
 async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
