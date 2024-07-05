@@ -11,6 +11,15 @@ from pyrogram.enums import *
 from ANNIEMUSIC import app as app
 from ANNIEMUSIC.mongo.couples_db import _get_image, get_couple
 
+markxb = [
+    [
+        InlineKeyboardButton(
+            text="𝐁ʀᴏᴋᴇɴ 𝐗 𝐍ᴇᴛᴡᴏʀᴋ ☠️",
+            url=f"https://t.me/brokenxnetwork",
+        ),
+    ],
+]
+
 def dt():
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M")
@@ -103,7 +112,7 @@ async def ctest(_, message):
 𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !!**
 """
     
-         await message.reply_photo(f"test_{cid}.png", caption=TXT)
+         await message.reply_photo(f"test_{cid}.png",  caption=TXT, reply_markup=InlineKeyboardMarkup(markbx))
          await msg.delete()
          a = upload_file(f"test_{cid}.png")
          for x in a:
