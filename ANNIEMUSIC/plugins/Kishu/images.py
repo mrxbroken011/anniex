@@ -20,7 +20,7 @@ async def google_img_search(client: Client, message: Message):
         lim = int(lim[0].replace("lim=", ""))
         query = query.replace(f"lim={lim}", "")
     except IndexError:
-        lim = 5  # Default limit to 5 images
+        lim = 8  # Default limit to 5 images
 
     download_dir = "downloads"
 
@@ -33,12 +33,12 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("Annie Scrapping images...")
+    msg = await message.reply("YUMI Scrapping images...")
 
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> Annie owo scrapped images {count}")
+        await msg.edit(f"=> YUMI owo scrapped images {count}")
 
     try:
         await app.send_media_group(
