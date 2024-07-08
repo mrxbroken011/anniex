@@ -272,7 +272,7 @@ async def mentionall(client, message):
         pass
 
 
-@app.on_message(filters.command(["lifetag"], prefixes=["/"]))
+@app.on_message(filters.command(["vctag"], prefixes=["/"]))
 async def mention_allvc(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -317,7 +317,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["histop", "lifestop"]))
+@app.on_message(filters.command(["histop", "vcstop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("๏ ᴄᴜʀʀᴇɴᴛʟʏ ɪ'ᴍ ɴᴏᴛ ᴛᴀɢɢɪɴɢ ʙᴀʙʏ.")
