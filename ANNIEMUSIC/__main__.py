@@ -42,20 +42,20 @@ async def init():
     try:
         await JARVIS.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("ANNIEMUSIC").error(
+        LOGGER("MUSICBROKN").error(
             "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ.\n\nᴀɴɴɪᴇ ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ..."
         )
         exit()
     except:
         pass
     await JARVIS.decorators()
-    LOGGER("ANNIEMUSIC").info(
+    LOGGER("MUSICBROKN").info(
         "\x41\x6e\x6e\x69\x65\x20\x4d\x75\x73\x69\x63\x20\x52\x6f\x62\x6f\x74\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\x2e\x2e"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("ANNIEMUSIC").info("sᴛᴏᴘɪɴɢ ᴀɴɴɪᴇ ᴍᴜsɪᴄ ʙᴏᴛ ...")
+    LOGGER("MUSICBROKN").info("sᴛᴏᴘɪɴɢ ᴀɴɴɪᴇ ᴍᴜsɪᴄ ʙᴏᴛ ...")
 
 
 if __name__ == "__main__":
