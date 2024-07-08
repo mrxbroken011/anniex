@@ -186,7 +186,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
             InlineKeyboardButton(text=_["P_B_2"], callback_data=f"JARVISPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}"),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_1"], =f"https://t.me/{app.username}?startgroup=true"),
+            InlineKeyboardButton(text=_["S_B_1"], url=f"https:/t.me/{app.username}?startgroup=true"),
         ],
         [
             InlineKeyboardButton(
