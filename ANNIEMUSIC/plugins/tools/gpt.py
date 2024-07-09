@@ -15,7 +15,7 @@ async def chat_gpt(bot, message):
 
         if len(message.command) < 2:
             await message.reply_text(
-                "**HELLO!** 👋 {name} \nI'm Yumi ASK Me Any Thing\n**Example:** Yumi Where is TajMahal?"
+                "**HELLO!** 👋 {1}, \nI'm Yumi ASK Me Any Thing\n**Example:** Yumi Where is TajMahal?"
             )
         else:
             a = message.text.split(' ', 1)[1]
