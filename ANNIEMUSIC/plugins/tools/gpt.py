@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 
-@app.on_message(filters.command(["chatgpt","janu","babu","ai","ask","yumi","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","#","&"]))
+@app.on_message(filters.command(["chatgpt","janu","babu","ai","ask","umi","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","y","Y"]))
 async def chat_gpt(bot, message):
     try:
         start_time = time.time()
@@ -15,7 +15,7 @@ async def chat_gpt(bot, message):
 
         if len(message.command) < 2:
             await message.reply_text(
-                "**HELLO!** 👋 I'm Yumi ASK Me Any Thing\n**Example:** Yumi Where is TajMahal?"
+                "**HELLO!** 👋 {name} \nI'm Yumi ASK Me Any Thing\n**Example:** Yumi Where is TajMahal?"
             )
         else:
             a = message.text.split(' ', 1)[1]
