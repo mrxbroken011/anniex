@@ -1,40 +1,104 @@
-import random
+import os
 import time
+from gtts import gTTS
+import openai
 import requests
-from ANNIEMUSIC import app
-from config import BOT_USERNAME
-
-from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
+from pyrogram.enums import ChatAction, ParseMode
+from ANNIEMUSIC import app
+import config
+from config import GPT_API
 
-@app.on_message(filters.command(["chatgpt","Janu","Babu","ai","ask","umi","gpt","solve"],  prefixes=["+", ".", "/", "-", "", "$","y","Y"]))
-async def chat_gpt(bot, message):
+# Set up OpenAI API
+openai.api_key = config.GPT_API
+
+# Define API URL for search
+API_URL = "https://sugoi-api.vercel.app/search"
+
+# Command for GPT chat
+@app.on_message(filters.command(["chatgpt", "ai", "ask", "Master"], prefixes=["+", ".", "/", "-", "?", "", "#", "&"]))
+async def chat_gpt(app, message):
     try:
-        start_time = time.time()
-        await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
+        # Start typing action
+        await app.send_chat_action(message.chat.id, ChatAction.TYPING)
 
         if len(message.command) < 2:
-            await message.reply_text(
-                "**HELLO!** 👋 {1}, \nI'm Yumi ASK Me Any Thing\n**Example:** Yumi Where is TajMahal?"
-            )
+            # Reply with default message if no query provided
+            await message.reply_text("**Hello sir, I am Yumi. How can I help you today?**")
         else:
-            a = message.text.split(' ', 1)[1]
-            response = requests.get(f'https://chatgpt.apinepdev.workers.dev/?question={a}')
-
-            try:
-                # Check if "results" key is present in the JSON response
-                if "answer" in response.json():
-                    x = response.json()["answer"]
-                    end_time = time.time()
-                    telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
-                    await message.reply_text(
-                        f" {x}      ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛  @Miss_YumiPro_Bot ",
-                        parse_mode=ParseMode.MARKDOWN
-                    )
-                else:
-                    await message.reply_text("No 'results' key found in the response.")
-            except KeyError:
-                # Handle any other KeyError that might occur
-                await message.reply_text("Error accessing the response.")
+            query = message.text.split(' ', 1)[1]
+            MODEL = "gpt-3.5-turbo"
+            # Generate response using OpenAI GPT
+            resp = openai.ChatCompletion.create(model=MODEL, messages=[{"role": "user", "content": query}],
+                                                 temperature=0.2)
+            response_text = resp['choices'][0]["message"]["content"]
+            await message.reply_text(response_text)
     except Exception as e:
-        await message.reply_text(f"**á´‡Ê€Ê€á´Ê€: {e} ")
+        await message.reply_text(f"**Error**: {e}")
+
+# Command for GPT chat with user's name
+@app.on_message(filters.command(["umi"], prefixes=["y", "Y"]))
+async def chat_arvis(app, message):
+    try:
+        await app.send_chat_action(message.chat.id, ChatAction.TYPING)
+        name = message.from_user.first_name
+        if len(message.command) < 2:
+            await message.reply_text(f"**Hello {name}, I am Yumi. How can I help you today?**")
+        else:
+            query = message.text.split(' ', 1)[1]
+            MODEL = "gpt-3.5-turbo"
+            resp = openai.ChatCompletion.create(model=MODEL, messages=[{"role": "user", "content": query}],
+                                                 temperature=0.2)
+            response_text = resp['choices'][0]["message"]["content"]
+            await message.reply_text(response_text)
+    except Exception as e:
+        await message.reply_text(f"**Error**: {e}")
+
+# Command for ANNIE with user's name
+@app.on_message(filters.command(["lexa"], prefixes=["a", "A"]))
+async def chat_annie(app, message):
+    try:
+        await app.send_chat_action(message.chat.id, ChatAction.TYPING)
+        name = message.from_user.first_name
+        if len(message.command) < 2:
+            await message.reply_text(f"**Hello {name}, Myself Yumi. How can I help you today?**")
+        else:
+            query = message.text.split(' ', 1)[1]
+            MODEL = "gpt-3.5-turbo"
+            resp = openai.ChatCompletion.create(model=MODEL, messages=[{"role": "user", "content": query}],
+                                                 temperature=0.2)
+            response_text = resp['choices'][0]["message"]["content"]
+            tts = gTTS(response_text, lang='en')
+            tts.save('Miss_YumiPro_bot.mp3')
+            await app.send_voice(chat_id=message.chat.id, voice='Miss_YumiPro_Bot.mp3')
+            os.remove('Miss_YumiPro_bot.mp3')
+    except Exception as e:
+        await message.reply_text(f"**Error**: {e}")
+
+# Command for Bing search
+@app.on_message(filters.command(["bing"], prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
+async def bing_search(app, message):
+    try:
+        if len(message.command) == 1:
+            await message.reply_text("Please provide a keyword to search.")
+            return
+
+        keyword = " ".join(message.command[1:])
+        params = {"keyword": keyword}
+        response = requests.get(API_URL, params=params)
+
+        if response.status_code == 200:
+            results = response.json()
+            if not results:
+                await message.reply_text("No results found.")
+            else:
+                message_text = ""
+                for result in results[:7]:
+                    title = result.get("title", "")
+                    link = result.get("link", "")
+                    message_text += f"{title}\n{link}\n\n"
+                await message.reply_text(message_text.strip())
+        else:
+            await message.reply_text("Sorry, something went wrong with the search.")
+    except Exception as e:
+        await message.reply_text(f"An error occurred: {str(e)}")
