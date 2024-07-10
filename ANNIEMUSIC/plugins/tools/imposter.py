@@ -1,9 +1,17 @@
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from ANNIEMUSIC.plugins.tools.pretenderdb import impo_off, impo_on, check_pretender, add_userdata, get_userdata, usr_data
 from ANNIEMUSIC import app
 
 
+AB = [
+    [
+        InlineKeyboardButton(
+            text="𝐁ʀᴏᴋᴇɴ 𝐗 𝐍ᴇᴛᴡᴏʀᴋ ☠️",
+            url="https://t.me/Brokenxnetwork",
+        ),
+    ],
+]
 
 
 @app.on_message(filters.group & ~filters.bot & ~filters.via_bot, group=69)
@@ -73,7 +81,7 @@ async def chk_usr(_, message: Message):
         msg += """
 **🪧 ᴄʜᴀɴɢᴇs ʟᴀsᴛ ɴᴀᴍᴇ 🪧**
 ➖➖➖➖➖➖➖➖➖➖➖➖
-**🚏ғʀᴏᴍ** : {bef}
+**🚏 ғʀᴏᴍ** : {bef}
 **🍕 ᴛᴏ** : {aft}
 ➖➖➖➖➖➖➖➖➖➖➖➖\n
 """.format(
@@ -86,7 +94,11 @@ async def chk_usr(_, message: Message):
             message.from_user.last_name,
         )
     if msg != "":
-        await message.reply_photo("https://telegra.ph/file/58afe55fee5ae99d6901b.jpg", caption=msg)
+        await message.reply_video(
+            "https://telegra.ph/file/4f0a703ae7b10a7049c61.mp4",
+            caption=msg,
+            reply_markup=InlineKeyboardMarkup(AB),
+        )
 
 
 @app.on_message(filters.group & filters.command("imposter") & ~filters.bot & ~filters.via_bot)
