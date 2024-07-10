@@ -14,10 +14,13 @@ async def chat_gpt(bot, message):
         name = message.from_user.first_name if message.from_user else "User"
         
         if len(message.command) < 2:
-            await message.reply_text(f"**Hello {name}, How can I help you today?**")
+            await message.reply_text(f"𝐇𝐞𝐥𝐥𝐨! {name}, 𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮 𝐓𝐨𝐝𝐚𝐲? ")
         else:
             query = message.text.split(' ', 1)[1]
             response = api.gemini(query)["results"]
-            await message.reply_text(f"{response}", parse_mode=ParseMode.MARKDOWN)
+            await message.reply_text(
+                f"{response} ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➛  @Miss_YumiPro_Bot \n ᴀsᴋᴇᴅ ʙʏ ➛ {name} ", 
+                parse_mode=ParseMode.MARKDOWN
+            )
     except Exception as e:
         await message.reply_text(f"**Error: {e}**")
