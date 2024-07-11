@@ -7,7 +7,7 @@
 </p>
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋𝐀𝐍𝐍𝐈𝐄+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
 
-<p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg" width="600"></a></p>
+<p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="600"></a></p>
 
 
 
