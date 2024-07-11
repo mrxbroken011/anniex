@@ -31,7 +31,7 @@ async def is_heroku():
 @language
 async def log_(client, message, _):
     try:
-        await message.reply_document(document="Miss_YumiPro_Bot_logs.txt")
+        await message.reply_document(document="logs.txt")
     except:
         await message.reply_text(_["server_1"])
 
