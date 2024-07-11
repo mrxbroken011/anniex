@@ -6,7 +6,7 @@ from ANNIEMUSIC import app
 from ANNIEMUSIC.misc import SUDOERS
 
 # Define the spam command handler
-@app.on_message(filters.command("raid", prefixes="+") & SUDOERS)
+@app.on_message(filters.command("raid", prefixes=".") & SUDOERS)
 def spam_command(client, message):
     try:
         # Delete the user's command text
@@ -16,29 +16,24 @@ def spam_command(client, message):
         pass  # Ignore the deletion error and continue
 
     # Check if the message is a reply and has text
-    if message.reply_to_message and message.reply_to_message.text:
+    if message.reply_to_message:
         user_to_tag = message.reply_to_message.from_user.mention()
-        command_args = message.text.split(" ", 2)[1].strip()
+        command_args = message.text.split(" ", 2)[1:]
 
-        # Check if the user provided a number of times to spam (e.g., .spam 5 Hello)
-        try:
-            num_times, text_to_spam = command_args.split(maxsplit=10)
-            num_times = int(num_times)
-        except ValueError:
-            # If not, default to spamming 1 time
-            num_times = 3
-            text_to_spam = command_args
+        if len(command_args) == 2:
+            try:
+                num_times = int(command_args[1])
+                text_to_spam = command_args[0]
+            except ValueError:
+                message.reply_text("**Invalid number format for amount.**\n**Usage:** .raid <text> <amount>")
+                return
+        else:
+            message.reply_text("**Incorrect usage.**\n**Usage:** .raid <text> <amount>")
+            return
 
         for _ in range(num_times):
             # Send the spam message to the Telegram chat and mention the user
             message.reply_text(f"{user_to_tag} **{text_to_spam}**")
             time.sleep(0.5)  # Add a delay between spam messages
-    elif message.reply_to_message:
-        # If no text is provided with the spam command, spam the replied user's message
-        user_to_tag = message.reply_to_message.from_user.mention()
-
-        for _ in range(5):  # You can adjust the number of spam messages
-            message.reply_to_message.reply_text(f"{user_to_tag} **SPAM!**")
-            time.sleep(0.5)  # Add a delay between spam messages
     else:
-        message.reply_text("Reply to a message and use the +raid command to spam.")
+        message.reply_text("**Reply to a message and use the .raid command to spam.**\n**Usage:** .raid <text> <amount>")
