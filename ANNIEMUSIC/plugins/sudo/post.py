@@ -1,17 +1,30 @@
-from pyrogram import Client, filters
+from pyrogram import filters
 from ANNIEMUSIC import app
-from config import OWNER_ID, BOT_USERNAME
+from config import OWNER_ID
 from pyrogram.types import Message
 
 
+
+
 @app.on_message(filters.command(["post"], prefixes=["/", "."]) & filters.user(OWNER_ID))
-async def copy_messages(_, message):
-
+async def copy_messages(client, message: Message):
     if message.reply_to_message:
-      
-        destination_group_id = -1002200810390
- 
-
+        command_parts = message.text.split()
         
-        await message.reply_to_message.copy(destination_group_id)
-        await message.reply("ᴘᴏsᴛ sᴜᴄᴄᴇssғᴜʟ ᴅᴏɴᴇ ")
+        if len(command_parts) == 2:
+            try:
+                
+                destination_group_id = int(command_parts[1])
+                
+                 
+                await message.reply_to_message.copy(destination_group_id)
+                
+                
+                await message.reply("ᴘᴏsᴛ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴏɴᴇ")
+            except ValueError:
+                await message.reply("**Invalid destination ID.**\nPlease provide a valid integer ID. Or Promote Me As Admin in`{destination_group_id}`")
+        else:
+            await message.reply("**Usage:**\n`/post` -1002200810390")
+    else:
+        await message.reply("Please reply to the message you want to post.")
+
