@@ -1,7 +1,7 @@
 from ... import *
 from pyrogram import *
 from pyrogram.types import *
-
+import aiohttp
 
 async def fetch_cc(bin):
     url = f"https://api.nophq.cc/gen/{bin}"
