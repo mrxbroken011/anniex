@@ -1,7 +1,7 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
-import aiohttp
-from ANNIEMUSIC import app
+from ... import *
+from pyrogram import *
+from pyrogram.types import *
+
 
 async def fetch_cc(bin):
     url = f"https://api.nophq.cc/gen/{bin}"
