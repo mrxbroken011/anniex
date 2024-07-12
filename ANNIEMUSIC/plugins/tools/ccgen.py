@@ -45,4 +45,4 @@ async def gen_cc(client, message: Message):
     except Exception as e:
         return await aux.edit(f"**Error:** `{e}`")
 
-# Modified API
+# Modified API (MR_BROKEN) 
