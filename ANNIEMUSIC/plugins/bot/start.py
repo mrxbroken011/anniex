@@ -28,17 +28,35 @@ from config import BANNED_USERS, AYUV
 from strings import get_string
 
 ANNIE_VID = [
-    "https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
-    "https://graph.org/file/ba7699c28dab379b518ca.mp4"
-    "https://graph.org/file/83ebf52e8bbf138620de7.mp4",
-    "https://graph.org/file/82fd67aa56eb1b299e08d.mp4",
-    "https://graph.org/file/318eac81e3d4667edcb77.mp4",
-    "https://graph.org/file/7c1aa59649fbf3ab422da.mp4",
-    "https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+    "https://telegra.ph/file/c1245469a992ed7eea832.jpg", 
+    "https://telegra.ph/file/9cea0b7593c411edfff53.jpg", 
+    "https://telegra.ph/file/5ce1e15afb0c7e9d17fff.jpg",
+    "https://telegra.ph/file/314badfb74642e96240f5.jpg",
+    "https://telegra.ph/file/235e85ae81c8ee40f7b64.jpg", 
+    "https://telegra.ph/file/c2dfd1a9bda7e9e774541.jpg",
+    "https://telegra.ph/file/70669bef810e52545bb10.jpg", 
+    "https://telegra.ph/file/aaea0abbc1bbeb9c03ba8.jpg",
+    "https://telegra.ph/file/d55b8833e9f93ee6afbcc.jpg", 
+    "https://telegra.ph/file/c7907b3302dc5ad379a06.jpg", 
+    "https://telegra.ph/file/c68e5d503614f748d82e7.jpg", 
+    "https://telegra.ph/file/e10a6b780005047756222.jpg", 
+    "https://telegra.ph/file/91bac150fd50d7d9fdd90.jpg", 
+    "https://telegra.ph/file/bc8adc47b217e8574cc14.jpg",
+    "https://telegra.ph/file/21488284d02bad2e0668e.jpg", 
+    "https://telegra.ph/file/3d4580aa35deaa45a9f44.jpg", 
+    "https://telegra.ph/file/92a67bd139d5eb7e462bd.jpg", 
+    "https://telegra.ph/file/503779919c8b4183a783d.jpg", 
+    "https://telegra.ph/file/a4cb485d162d69037b630.jpg", 
+    "https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg", 
+    "https://telegra.ph/file/69e9522016014d6838ad3.jpg", 
 ]
 
 STICKERS = [
     "CAACAgUAAxkBAAIGgGZ-FKBKqmFPfCvY_r5Rv5QHgCZXAAJrDwACUyI5V0DyywS65FCUHgQ",
+    "CAACAgUAAxkBAAIBeWaUVgc_0Y6gvSkE5HaBAbNxeJICAALSEAACuJ_QVr0Lp98DEI3aHgQ", 
+    "CAACAgUAAxkBAAIBfWaUVmouyzVy-LjrwVLn9VIciYhfAAKhDwACUIrgVt-ivr3brFblHgQ", 
+    "CAACAgUAAxkBAAIBgWaUVvCT9ufK9dzrFfe0lyTuYWnxAAJOEAACDaO4VvnA5DcxZtBaHgQ", 
+    "CAACAgUAAxkBAAIBhWaUV3qP1UrpFgSDxc0ycJUaJtU9AALSEAACOBPhVulGhjrfijJSHgQ", 
 ]
 
 async def delete_sticker_after_delay(message, delay):
@@ -54,8 +72,8 @@ async def start_pm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             sticker_message = await message.reply_sticker(sticker=random.choice(STICKERS))
-            asyncio.create_task(delete_sticker_after_delay(sticker_message, 2))  # Delete sticker after 2 seconds
-            await message.reply_video(
+            asyncio.create_task(delete_sticker_after_delay(sticker_message, 5))  # Delete sticker after 2 seconds
+            await message.reply_photo(
                 random.choice(ANNIE_VID),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
@@ -111,7 +129,7 @@ async def start_pm(client, message: Message, _):
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         UP, CPU, RAM, DISK = await bot_sys_stats()
-        await message.reply_video(
+        await message.reply_photo(
             random.choice(ANNIE_VID),
             caption=random.choice(AYUV).format(message.from_user.mention, app.mention, UP, DISK, CPU, RAM, served_users, served_chats),
             reply_markup=InlineKeyboardMarkup(out),
@@ -127,7 +145,7 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-    await message.reply_video(
+    await message.reply_photo(
         random.choice(ANNIE_VID),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
@@ -161,7 +179,7 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_video(
+                await message.reply_photo(
                     random.choice(ANNIE_VID),
                     caption=_["start_3"].format(
                         message.from_user.mention,
