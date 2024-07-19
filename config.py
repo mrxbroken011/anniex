@@ -16,7 +16,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "MrBrokn")
 BOT_USERNAME = getenv("BOT_USERNAME", "MISS_YUMIPRO_BOT")
 BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶")
 ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT")
-EVALOP = list(map(int, getenv("EVALOP", "7374966263").split()))
+EVALOP = list(map(int, getenv("EVALOP", "1841914911").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -62,9 +62,9 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 # Bot introduction messages - These can be customized as per your preference
 AYU = [
-    "💞", "🦋", "🔍", "🧪", "🎇", "⚡️", "🔥", "🎆", "🎩", "🌈", "🍷", "🥂", "🎲", "🥃", "🥤", "🎐",
-    "💣", "🍫", "🕊️", "🍸", "🔐", "🍿", "🛸", "🎼", "🪄", "💌", "🪗", "🎯", "🧨", "🎶", "💎", "🔮", 
-    "🚬", "🧸", "🔎", "🍹", "🍻", "🧊", "💥", "💗", "✨"
+    "💞", "𝚃𝙷𝙸𝚂 𝚂𝙾𝙽𝙶 𝙸𝚂 𝚃𝙾𝚃𝙰𝙻𝙻𝚈 𝙵𝙰𝙱𝚄𝙻𝙰𝚂𝚃𝙸𝙲...🔥🥰", "🔍", "🧪", "ʜᴏʟᴅ ᴏɴ ᴅᴀʀʟɪɴɢ 💗", "⚡️", "🔥", "ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...❤‍🔥", "🎩", "🌈", "🍷", "🥂", "🎲", "🥃", 
+    "ᴀᴄᴄʜɪ ᴘᴀsᴀɴᴅ ʜᴀɪ 🥰", "ʟᴏᴏᴋɪɴɢ ғᴏʀ ʏᴏᴜʀ sᴏɴɢ... ᴡᴀɪᴛ! 💗", "🪄", "💌", "ᴏᴋ ʙᴀʙʏ ᴡᴀɪᴛ😘 ғᴇᴡ sᴇᴄᴏɴᴅs", "ᴀʜʜ! ɢᴏᴏᴅ ᴄʜᴏɪᴄᴇ ʜᴏʟᴅ ᴏɴ...",  
+    "ᴡᴏᴡ! ɪᴛ's ᴍʏ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ...", "ɴɪᴄᴇ ᴄʜᴏɪᴄᴇ..! ᴡᴀɪᴛ 𝟸 sᴇᴄᴏɴᴅ", "🔎", "🍹", "🍻", "ɪ ʟᴏᴠᴇ ᴛʜᴀᴛ sᴏɴɢ..!😍", "💥", "💗", "✨"
 ]
 
 AYUV = [
