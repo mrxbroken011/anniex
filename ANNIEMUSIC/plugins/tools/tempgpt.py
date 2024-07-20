@@ -7,10 +7,10 @@ from MukeshAPI import api
 
 def reply_to_owner_query(query):
     recognized_queries = [
-        "yumi who is your owner",
-        "yumi tumhara malik kon h",
-        "yumi who is your owner?",
-        "yumi tumhara malik kon h?"
+        "hello yumi who is your owner",
+        "hello yumi tumhara malik kon h",
+        "hello yumi who is your owner?",
+        "hello yumi tumhara malik kon h?"
     ]
     
     normalized_query = query.strip().lower()
