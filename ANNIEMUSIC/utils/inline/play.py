@@ -80,11 +80,11 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -136,11 +136,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -166,11 +166,11 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -190,11 +190,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -210,11 +210,11 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -240,11 +240,11 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ👑",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ👑",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -282,11 +282,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -316,11 +316,11 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -345,11 +345,11 @@ def panel_markup_2(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
@@ -373,11 +373,11 @@ def panel_markup_3(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
