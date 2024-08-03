@@ -1,1 +1,1 @@
-worker: bash start
+broken: bash start
