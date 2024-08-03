@@ -1,7 +1,6 @@
 import asyncio
 import requests
 from ANNIEMUSIC import app
-import config
 from pyrogram import filters
 from pyrogram.enums import ChatAction, MessageEntityType
 
@@ -26,21 +25,23 @@ async def ai_chat_bot(client, message):
     await client.send_chat_action(chat_id, ChatAction.TYPING)
     await asyncio.sleep(3)
     
-    url = "https://api.deepai.org/api/text-generator"
+    url = "https://create-chatbot.p.rapidapi.com/api/v1/text/generate"
     headers = {
-        'Api-Key': config.DEEP_API
+        'X-RapidAPI-Key': 'Iq7MGR1dZAmshgT7vWvmTFsBGOP2p1IxZw3jsnBmLfKXgwKR9Z',
+        'Content-Type': 'application/json'
     }
-    data = {
-        'text': message.text
+    payload = {
+        'text': message.text,
+        'source': 'telegram'
     }
-
+    
     try:
-        response = requests.post(url, headers=headers, data=data)
+        response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()  # Raises an HTTPError for bad responses
         result = response.json()
         
-        if 'output' in result:
-            answer = result['output']
+        if 'response' in result:
+            answer = result['response']
             await message.reply_text(answer)
         else:
             await message.reply_text("**Sorry, I couldn't. Please ask** @MrBrokn **To Add API KEY**")
