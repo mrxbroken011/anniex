@@ -23,11 +23,11 @@ def track_markup(_, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="😈ᴏᴡɴᴇʀ✨",
+                text="😈𝐌ʀ 𝐁ʀᴏᴋᴇɴ✨",
                 url=f"t.me/{OWNER_USERNAME}",
             ),
             InlineKeyboardButton(
-                text="🖤sᴜᴘᴘᴏʀᴛ😈",
+                text="🖤𝐂ʜᴀᴛ😈",
                 url=f"{SUPPORT_CHAT}",
             ),
         ],
