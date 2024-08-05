@@ -1,3 +1,4 @@
+from ANNIEMUSIC import app
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import random
