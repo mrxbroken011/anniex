@@ -23,7 +23,7 @@
 ``STRING_SESSION``
 </details>
 
-<p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="600"></a></p>
+<p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="800px"></a></p>
 
 
 
