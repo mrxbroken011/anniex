@@ -8,6 +8,20 @@
 </p>
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋𝐀𝐍𝐍𝐈𝐄+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
 
+<summary><b>ᴠᴀʀs</b></summary>
+<br>
+
+   ``API_ID`` 
+   ``API_HASH``
+   ``BOT_TOKEN`` 
+   ``MONGO_DB_URI``
+   ``OWNER_ID``
+   ``DEEP_API`` 
+   ``GPT_API`` 
+   ``LOGGER_ID``
+   ``STRING_SESSION``
+
+
 <p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="600"></a></p>
 
 
@@ -36,16 +50,7 @@
         <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" width="220" height="38.45"/>
     </a>
 </p>
-
-
-
-<summary><b>ᴠᴀʀs</b></summary>
-<br>
-
-   ``API_ID`` ``API_HASH`` ``BOT_TOKEN`` ``MONGO_DB_URI`` ``OWNER_ID`` ``DEEP_API`` ``GPT_API`` ``LOGGER_ID`` ``STRING_SESSION``
-      
-
-  
+ 
 
 
 # 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 💗🥀
