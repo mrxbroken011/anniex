@@ -11,15 +11,15 @@
 <summary><b>ᴠᴀʀs</b></summary>
 <br>
 
-   ``API_ID`` 
-   ``API_HASH``
-   ``BOT_TOKEN`` 
-   ``MONGO_DB_URI``
-   ``OWNER_ID``
-   ``DEEP_API`` 
-   ``GPT_API`` 
-   ``LOGGER_ID``
-   ``STRING_SESSION``
+   -``API_ID``- 
+   -``API_HASH``-
+   -``BOT_TOKEN``- 
+   -``MONGO_DB_URI``-
+   -``OWNER_ID``-
+   -``DEEP_API``- 
+   -``GPT_API``- 
+   -``LOGGER_ID``-
+   -``STRING_SESSION``-
 
 
 <p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="600"></a></p>
