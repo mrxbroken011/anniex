@@ -9,9 +9,8 @@
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋𝐀𝐍𝐍𝐈𝐄+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
 
 <details>
-<summary><b>ᴠᴀʀs</b></summary>
+<summary><b>ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs</b></summary>
 <br>
-<p align="middle">
    
 ``API_ID``
 ``API_HASH``
@@ -22,7 +21,7 @@
 ``GPT_API`` 
 ``LOGGER_ID``
 ``STRING_SESSION``
-</p></details>
+</details>
 
 <p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="600"></a></p>
 
