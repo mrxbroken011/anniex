@@ -41,10 +41,9 @@
 
 <summary><b>ᴠᴀʀs</b></summary>
 <br>
-<p align="center"> 
 
-   ``API_ID````API_HASH````BOT_TOKEN````MONGO_DB_URI````OWNER_ID````DEEP_API````GPT_API````LOGGER_ID````STRING_SESSION``
-   /></p>   
+   ``API_ID`` ``API_HASH`` ``BOT_TOKEN`` ``MONGO_DB_URI`` ``OWNER_ID`` ``DEEP_API`` ``GPT_API`` ``LOGGER_ID`` ``STRING_SESSION``
+      
 
   
 
