@@ -1,4 +1,3 @@
-# © [MRXBROKE]
 import asyncio
 import random
 from pyrogram.enums import ChatMemberStatus
@@ -11,7 +10,7 @@ from pyrogram.errors import (
 from ANNIEMUSIC.utils.database import get_assistant
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from ANNIEMUSIC import YouTube, app, YTB
+from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.core.call import JARVIS
 from ANNIEMUSIC.misc import SUDOERS, db
 from ANNIEMUSIC.utils.database import (
@@ -56,7 +55,11 @@ async def markup_panel(client, CallbackQuery: CallbackQuery, _):
         )
     except:
         return
-    
+    if chat_id not in wrong:
+        wrong[chat_id] = {}
+    wrong[chat_id][CallbackQuery.message.message_id] = False
+
+
 @app.on_callback_query(filters.regex("MainMarkup") & ~BANNED_USERS)
 @languageCB
 async def del_back_playlist(client, CallbackQuery, _):
@@ -411,15 +414,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     video=status,
                 )
             except:
-                try:
-                    file_path, direct = await YTB.download(
-                        videoid,
-                        mystic,
-                        videoid=True,
-                        video=status,
-                    )
-                except:
-                    return await mystic.edit_text(_["call_6"])
+                return await mystic.edit_text(_["call_6"])
             try:
                 image = await YouTube.thumbnail(videoid, True)
             except:
