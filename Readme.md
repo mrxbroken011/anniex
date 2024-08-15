@@ -75,8 +75,11 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+`ᴛʜᴀɴᴋs ᴛᴏ ʀᴀᴊɴɪsʜ xᴅ`
 
-## Credit for Repo 
-<a herf="https://GitHub.com/doremon890">RAJNISH XD</a>
-<a href="https://GitHub.com/doremon890/ANNIE-X-MUSIC">ANNIE-X-MUSIC</a>
+<b>ᴄʀᴇᴅɪᴛ ғᴏʀ ʀᴇᴘᴏ</b>
+<br>
+<a herf="https://GitHub.com/doraemon890">RAJNISH XD</a>
+<br>
+<a href="https://GitHub.com/doraemon890/ANNIE-X-MUSIC">ANNIE-X-MUSIC</a>
 
