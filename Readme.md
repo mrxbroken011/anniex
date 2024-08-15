@@ -1,3 +1,10 @@
+𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿
+ ```
+   𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
+   𝙰𝚗𝚍 𝙱𝚘𝚝 𝚒𝚜 𝚂𝚝𝚊𝚛𝚝 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝙸𝚗 𝚅𝚌.... 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝙰𝚗𝚢 𝙸𝚜𝚜𝚞𝚎
+```
+ [!SAMPLE BOT](https://t.me/Miss_YumiPro_Bot) 
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h3><img  style="align-item" :"center" 
    <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=620&lines=✨+🦋+𝐇𝐄𝐘+𝐓𝐇𝐄𝐑𝐄+𝐓𝐇𝐈𝐒+𝐈𝐒+𝐌𝐑+𝐗+𝐁𝐑𝐎𝐊𝐄𝐍+🖤+🥀"></b></h3>
