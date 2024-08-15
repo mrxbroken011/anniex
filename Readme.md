@@ -2,7 +2,9 @@
  
   ` 𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
    𝙰𝚗𝚍 𝙱𝚘𝚝 𝚒𝚜 𝚂𝚝𝚊𝚛𝚝 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝙸𝚗 𝚅𝚌.... 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝙰𝚗𝚢 𝙸𝚜𝚜𝚞𝚎 `
-   
+
+<h2 align="center" width="620" ><b>ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅ ғʀᴏᴋ ᴛʜɪs ʀᴇᴘᴏ ʙᴇғᴏʀᴇ ᴅᴇᴘʟᴏʏɪɴɢ...!</b> 
+</h2>
  ## Try the Bot
 
 [![Demo Bot](https://img.shields.io/badge/🖤-Demo%20Bot-blue.svg?style=for-the-badge)](https://t.me/Miss_YumiPro_Bot)
