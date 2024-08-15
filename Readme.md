@@ -75,11 +75,11 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-`ᴛʜᴀɴᴋs ᴛᴏ ʀᴀᴊɴɪsʜ xᴅ`
+` 𝚃𝙷𝙰𝙽𝙺 𝚃𝙾 𝚛𝚊𝚓𝚗𝚒𝚜𝚑 𝚡𝚍 𝙵𝚘𝚛 𝙰𝚗𝚗𝚒𝚎 𝚡 𝚖𝚞𝚜𝚒𝚌`
 
 <b>ᴄʀᴇᴅɪᴛ ғᴏʀ ʀᴇᴘᴏ</b>
 <br>
-<a herf="https://GitHub.com/doraemon890">RAJNISH XD</a>
+<a herf="https://GitHub.com/doraemon890">RAJNISH-XD</a>
 <br>
 <a href="https://GitHub.com/doraemon890/ANNIE-X-MUSIC">ANNIE-X-MUSIC</a>
 
