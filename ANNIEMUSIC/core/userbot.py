@@ -47,13 +47,13 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"**Broken x Assistant starting...**")
+        LOGGER(__name__).info(f"Broken x Assistant starting...")
         if config.STRING1:
             await self.one.start()
             try:
                 await self.one.join_chat("BROKENXNETWORK")
               
-                await self.one.join_chat("BROKNXSUPPORT")
+                await self.one.join_chat("AboutBrokenX")
             except:
                 pass
             assistants.append(1)
@@ -76,7 +76,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("BROKENXNETWORK")
                 
-                await self.one.join_chat("BROKNXSUPPORT")
+                await self.one.join_chat("AboutBrokenX")
             except:
                 pass
             assistants.append(2)
@@ -98,7 +98,7 @@ class Userbot(Client):
             try:
                 await self.three.join_chat("BROKENXNETWORK")
                 
-                await self.one.join_chat("BROKNXSUPPORT")
+                await self.one.join_chat("AboutBrokenX")
             except:
                 pass
             assistants.append(3)
@@ -120,7 +120,7 @@ class Userbot(Client):
             try:
                 await self.four.join_chat("BROKENXNETWORK")
                 
-                await self.one.join_chat("BROKNXSUPPORT")
+                await self.one.join_chat("AboutBrokenX")
             except:
                 pass
             assistants.append(4)
@@ -142,7 +142,7 @@ class Userbot(Client):
             try:
                 await self.five.join_chat("BROKENXNETWORK")
                 
-                await self.one.join_chat("BROKNXSUPPORT")
+                await self.one.join_chat("AboutBrokenX")
             except:
                 pass
             assistants.append(5)
