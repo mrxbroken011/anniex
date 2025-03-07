@@ -1,9 +1,18 @@
 𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿 `FIXED`
 
-  ``` ERROR: [youtube] 8-gxHIOSZNA: Sign in to confirm you’re not a bot. This helps protect our community. Learn more ```
+  ```console
+  ERROR: [youtube] 8-gxHIOSZNA: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+ ```
+<h1 align="center" width="80px"><b>ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs ɪɴ ᴍᴏʙɪʟᴇ</b>
+</h1>  
+<b>𝟷. ɪɴsᴛᴀʟʟ ᴋɪᴡɪ ʙʀᴏᴡsᴇʀ ғʀᴏᴍ ᴘʟᴀʏ sᴛᴏʀᴇ 
+  𝟸. ɪɴsᴛᴀʟʟ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs.ᴛxᴛ ᴇxᴛᴇɴsɪᴏɴ 
+  𝟹. ɢᴏ ᴛᴏ [ʏᴏᴜᴛᴜʙᴇ](https://YouTube.com) sɪɢɴ ɪɴ ᴡɪᴛʜ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ
+  𝟺. ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴏᴋɪᴇs ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ</b>
+  
  
-  ` 𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
-   𝙰𝚗𝚍 𝙱𝚘𝚝 𝚒𝚜 𝚂𝚝𝚊𝚛𝚝 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝙸𝚗 𝚅𝚌.... 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝙰𝚗𝚢 𝙸𝚜𝚜𝚞𝚎 `
+` 𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
+  𝙰𝚗𝚍 𝙱𝚘𝚝 𝚒𝚜 𝚂𝚝𝚊𝚛𝚝 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝙸𝚗 𝚅𝚌.... 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝙰𝚗𝚢 𝙸𝚜𝚜𝚞𝚎 `
 
 <h2 align="center" width="90px"><b>ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅ 𝖥ᴏʀᴋ ᴛʜɪs ʀᴇᴘᴏ ʙᴇғᴏʀᴇ ᴅᴇᴘʟᴏʏɪɴɢ...!</b> 
 </h2>
