@@ -1,4 +1,5 @@
 𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿 `FIXED`
+**Youtube Ip ban Issue solved**
 
   ```console
   ERROR:
