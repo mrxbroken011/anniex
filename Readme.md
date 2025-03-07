@@ -5,13 +5,16 @@
 [youtube] 8-gxHIOSZNA:
 Sign in to confirm you’re not a bot. This helps protect our community. Learn more
  ```
-<a align="center" width="80px"><b>ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs ɪɴ ᴍᴏʙɪʟᴇ</b>
-</a>
-𝟷. ɪɴsᴛᴀʟʟ ᴋɪᴡɪ ʙʀᴏᴡsᴇʀ ғʀᴏᴍ ᴘʟᴀʏ sᴛᴏʀᴇ 
-𝟸. ɪɴsᴛᴀʟʟ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs.ᴛxᴛ ᴇxᴛᴇɴsɪᴏɴ 
-𝟹. ɢᴏ ᴛᴏ [ʏᴏᴜᴛᴜʙᴇ](https://YouTube.com) sɪɢɴ ɪɴ ᴡɪᴛʜ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ
-𝟺. ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴏᴋɪᴇs ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ
+# 🍪 How to Get Cookies in Mobile  
 
+## 📌 Steps to Extract Cookies  
+
+1. **Install Kiwi Browser** from the Play Store.  
+2. **Install "Get cookies.txt" extension** from the Chrome Web Store.  
+3. **Go to [YouTube](https://YouTube.com)** and sign in with your account.  
+4. **Download cookies** using the installed extension.  
+
+---
  
 ` 𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
   𝙰𝚗𝚍 𝙱𝚘𝚝 𝚒𝚜 𝚂𝚝𝚊𝚛𝚝 𝚂𝚝𝚛𝚎𝚊𝚖𝚒𝚗𝚐 𝙸𝚗 𝚅𝚌.... 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝙰𝚗𝚢 𝙸𝚜𝚜𝚞𝚎 `
