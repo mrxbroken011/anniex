@@ -1,14 +1,15 @@
 𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿 `FIXED`
-**Youtube Ip ban Issue solved**
+
+# 👉 Youtube Ip ban Issue solved
 
   ```console
   ERROR:
 [youtube] 8-gxHIOSZNA:
 Sign in to confirm you’re not a bot. This helps protect our community. Learn more
  ```
-# 🍪 How to Get Cookies in Mobile  
+## 🍪 How to Get Cookies in Mobile  
 
-## 📌 Steps to Extract Cookies  
+### 📌 Steps to Extract Cookies  
 
 1. **Install Kiwi Browser** from the Play Store.  
 2. **Install "Get cookies.txt" extension** from the Chrome Web Store.  
