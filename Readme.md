@@ -1,13 +1,15 @@
 𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿 `FIXED`
 
   ```console
-  ERROR: [youtube] 8-gxHIOSZNA: Sign in to confirm you’re not a bot. This helps protect our community. Learn more
+  ERROR:
+[youtube] 8-gxHIOSZNA:
+Sign in to confirm you’re not a bot. This helps protect our community. Learn more
  ```
 <h1 align="center" width="80px"><b>ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs ɪɴ ᴍᴏʙɪʟᴇ</b>
-<b>𝟷. ɪɴsᴛᴀʟʟ ᴋɪᴡɪ ʙʀᴏᴡsᴇʀ ғʀᴏᴍ ᴘʟᴀʏ sᴛᴏʀᴇ \n
-  𝟸. ɪɴsᴛᴀʟʟ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs.ᴛxᴛ ᴇxᴛᴇɴsɪᴏɴ \n
-  𝟹. ɢᴏ ᴛᴏ [ʏᴏᴜᴛᴜʙᴇ](https://YouTube.com) sɪɢɴ ɪɴ ᴡɪᴛʜ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ\n
-  𝟺. ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴏᴋɪᴇs ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ</b>
+𝟷. ɪɴsᴛᴀʟʟ ᴋɪᴡɪ ʙʀᴏᴡsᴇʀ ғʀᴏᴍ ᴘʟᴀʏ sᴛᴏʀᴇ 
+𝟸. ɪɴsᴛᴀʟʟ ɢᴇᴛ ᴄᴏᴏᴋɪᴇs.ᴛxᴛ ᴇxᴛᴇɴsɪᴏɴ 
+𝟹. ɢᴏ ᴛᴏ [ʏᴏᴜᴛᴜʙᴇ](https://YouTube.com) sɪɢɴ ɪɴ ᴡɪᴛʜ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ
+𝟺. ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴏᴋɪᴇs ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ
 </h1>
  
 ` 𝚁𝙴𝙿𝙻𝙰𝙲𝙴 𝚌𝚘𝚘𝚔𝚒𝚎𝚜/𝚎𝚡𝚊𝚖𝚙𝚕𝚎.𝚝𝚡𝚝 𝚝𝚘 𝚈𝚘𝚞𝚛 𝙲𝚘𝚘𝚔𝚒𝚎𝚜.𝚝𝚡𝚝 𝙵𝚒𝚕𝚎
