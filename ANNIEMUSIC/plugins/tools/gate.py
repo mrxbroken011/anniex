@@ -1,4 +1,4 @@
-# --""" (C) 2025 MR BROKEN """--
+# 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐆𝐚𝐭𝐞𝐰𝐚𝐲𝐬 𝐇𝐮𝐧𝐭𝐞𝐫
 from pyrogram import Client, filters
 import requests
 from ANNIEMUSIC import app
