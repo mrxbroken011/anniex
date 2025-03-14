@@ -1,5 +1,10 @@
 𝗙𝗜𝗫𝗘𝗗 𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗬𝘁𝗱𝗹𝗽 𝗲𝗿𝗿𝗼𝗿 `FIXED`
 
+<div align="middle" width="90px">
+  
+[![ANNIEX](https://github-readme-stats.vercel.app/api/pin/?username=mrxbroken011&repo=anniex&show_icons=true&theme=radical&hide_title=true&border_radius=06&border_color=#ffffff&custom_title=ANNIEX)](https://github.com/mrxbroken011/anniex)
+</div>
+  
 # 👉 Youtube Ip ban Issue solved
 
   ```console
