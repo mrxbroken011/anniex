@@ -38,7 +38,7 @@ pycryptodome
 pydub
 pyfiglet
 pykeyboard
-pyrogram==2.0.106
+pyrofork
 python-dotenv
 python-telegram-bot==21.1.1
 python-whois
@@ -46,7 +46,7 @@ pyshorteners
 pyttsx3
 pytz
 pytube
-py-tgcalls==0.9.7
+py-tgcalls
 pyyaml==6.0.1
 qrcode
 requests
