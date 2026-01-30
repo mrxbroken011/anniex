@@ -2,7 +2,7 @@
 
 <div align="middle" width="90px">
   
-[![ANNIEX](https://github-readme-stats.vercel.app/api/pin/?username=mrxbroken011&repo=anniex&show_icons=true&theme=synthwave&hide_title=true&border_radius=06&border_color=#ffffff&custom_title=ANNIEX)](https://github.com/mrxbroken011/anniex)
+[![ANNIEX](https://github-readme-stats.vercel.app/api/pin/?username=mrxbroken011&repo=anniex&show_icons=true&theme=tokyonight&hide_title=true&border_radius=06&border_color=#ffffff&custom_title=ANNIEX)](https://github.com/mrxbroken011/anniex)
 </div>
   
 # 👉 Youtube Ip ban Issue solved
