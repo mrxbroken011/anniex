@@ -10,6 +10,7 @@ cloudscraper
 deepai
 dnspython
 emojis
+py-yt-search
 ffmpeg-python
 Faker
 future==1.0.0
