@@ -12,6 +12,8 @@
 [youtube] 8-gxHIOSZNA:
 Sign in to confirm you’re not a bot. This helps protect our community. Learn more
  ```
+<h2 align="center" width="100px"> IMPORTANT ANNOUNCEMENT</h2>
+
 >  [!caution]
 >
 >  **NO NEED TO CHANGE COOKIES**
@@ -22,7 +24,7 @@ Sign in to confirm you’re not a bot. This helps protect our community. Learn m
 > 
 > GO TO [TELEGRAM](https://t.me/ABOUTBROKENX) 👈🏻**GET YOUR KEY JOIN FOR MORE UPDATES**
 >
-> **SAY GOODBYE TO CHANGING YOUTUBE COOKIES. GET YOUR FREE KEY NOW **
+> **SAY GOODBYE TO CHANGING YOUTUBE COOKIES. GET YOUR FREE KEY NOW**
 
 <h2 align="center" width="90px"><b>ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅ 𝖥ᴏʀᴋ ᴛʜɪs ʀᴇᴘᴏ ʙᴇғᴏʀᴇ ᴅᴇᴘʟᴏʏɪɴɢ...!</b> 
 </h2>
