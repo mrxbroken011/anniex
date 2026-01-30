@@ -12,7 +12,8 @@
 [youtube] 8-gxHIOSZNA:
 Sign in to confirm you’re not a bot. This helps protect our community. Learn more
  ```
->  [!UPDATE]
+>  [!]
+>
 >  **NO NEED TO CHANGE COOKIES**
 >
 > **NOW USE OUR YOUTUBE API FOR STREAMING MUSIC LAG FREE 24/7**
