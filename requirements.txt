@@ -21,7 +21,7 @@ gpytranslate
 gtts
 hachoir
 heroku3
-httpx==0.27.0
+httpx
 img2pdf
 instaloader
 lexica-api
@@ -61,6 +61,7 @@ tgcrypto
 unidecode
 wget
 yt-dlp
+BROKENXAPI
 youtube-search
 youtube-search-python
 #modify if required
