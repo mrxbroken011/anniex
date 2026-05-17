@@ -18,13 +18,7 @@ Sign in to confirm you’re not a bot. This helps protect our community. Learn m
 >
 >  **NO NEED TO CHANGE COOKIES**
 >
-> **NOW USE OUR YOUTUBE API FOR STREAMING MUSIC LAG FREE 24/7**
->
-> GET YOUR KEY FOR **FREE NOW**
-> 
-> GO TO [TELEGRAM](https://t.me/ABOUTBROKENX) 👈🏻**GET YOUR KEY JOIN FOR MORE UPDATES**
->
-> **SAY GOODBYE TO CHANGING YOUTUBE COOKIES. GET YOUR FREE KEY NOW**
+> **SAY GOODBYE TO CHANGING YOUTUBE COOKIES. 
 
 <h2 align="center" width="90px"><b>ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅ 𝖥ᴏʀᴋ ᴛʜɪs ʀᴇᴘᴏ ʙᴇғᴏʀᴇ ᴅᴇᴘʟᴏʏɪɴɢ...!</b> 
 </h2>
