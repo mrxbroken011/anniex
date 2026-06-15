@@ -15,7 +15,7 @@ from config import API_KEY
 
 API_URL = "https://api.shrutibots.site"
 
-API_KEY = ""## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
+#API_KEY = ""## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
 
 DOWNLOAD_DIR = "downloads"
 
