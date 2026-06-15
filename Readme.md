@@ -51,6 +51,7 @@ Sign in to confirm you’re not a bot. This helps protect our community. Learn m
 `GPT_API`
 `LOGGER_ID`
 `STRING_SESSION`
+`SHRUTI_API` Get it From [Here](http://t.me/SHRUTIAPIBOT)
 
 
 
