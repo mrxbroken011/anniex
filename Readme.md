@@ -39,20 +39,32 @@ Sign in to confirm you’re not a bot. This helps protect our community. Learn m
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋𝐀𝐍𝐍𝐈𝐄+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🖤+🥀"></b></h1>
 
 
-<summary><b>ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs</b></summary>
-<br>
-  
-`API_ID`
-`API_HASH`
-`BOT_TOKEN`
-`MONGO_DB_URI`
-`OWNER_ID`
-`DEEP_API` 
-`GPT_API`
-`LOGGER_ID`
-`STRING_SESSION`
-`SHRUTI_API` Get it From [Here](http://t.me/SHRUTIAPIBOT)
+<h6><b>ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs</b></h6>
 
+```console
+
+-> API_ID
+
+-> API_HASH
+
+-> BOT_TOKEN
+
+-> MONGO_DB_URI
+
+-> OWNER_ID
+
+-> DEEP_API
+
+-> GPT_API
+
+-> LOGGER_ID
+
+-> STRING_SESSION
+
+-> API_KEY 
+
+```
+**Get BrokenXAPI API_KEY From** [Here](http://t.me/BROKENXAPIBOT)
 
 
 <p align="center"><a href="https://t.me/BROKENXNETWORK"><img src="https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg" width="800px"></a></p>
