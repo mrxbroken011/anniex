@@ -41,7 +41,7 @@ pyfiglet
 pykeyboard
 pyrofork
 python-dotenv
-python-telegram-bot==21.1.1
+python-telegram-bot==21.6
 python-whois
 pyshorteners
 pyttsx3
